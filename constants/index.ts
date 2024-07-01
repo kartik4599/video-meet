@@ -8,7 +8,7 @@ export const SideBarMenu = [
     label: "Upcoming",
     route: "/upcoming",
     imgUrl: "/icons/upcoming.svg",
-  }, 
+  },
   {
     label: "Previous",
     route: "/previous",
@@ -25,3 +25,17 @@ export const SideBarMenu = [
     imgUrl: "/icons/add-personal.svg",
   },
 ];
+
+export const appearance: any = {
+  layout: {
+    logoImageUrl: "/images/logo.png",
+    socialButtonsVariant: "iconButton",
+  },
+  variables: {
+    colorText: "#fff",
+    colorPrimary: "#0E78F9",
+    colorBackground: "#1c1f2e",
+    colorInputBackground: "#262a41",
+    colorInputText: "#fff",
+  },
+};
