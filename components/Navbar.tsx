@@ -10,10 +10,12 @@ const Navbar = () => {
       <Link href="/" className="flex items-center gap-1">
         <Image src={"/images/logo.png"} alt="logo" width={60} height={60} />
       </Link>
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
-      <MobileNav />
+      <div className="flex items-center gap-3">
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
+        <MobileNav />
+      </div>
     </nav>
   );
 };

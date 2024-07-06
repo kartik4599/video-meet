@@ -6,6 +6,20 @@
   filter: invert(1);
 }
 
+.cl-internal-1yphags button {
+  color: white;
+}
+
+.cl-internal-zpbffa {
+  color: white;
+  border: 1px solid white;
+  margin: 0;
+}
+
+.cl-internal-1nn89fl {
+  color: white;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
